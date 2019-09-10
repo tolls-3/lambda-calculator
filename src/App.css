@@ -38,7 +38,7 @@
     border-radius: 70px;
   }
 .buttonsContainer{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -50,7 +50,7 @@
   width: 100%;
 }
 .specialBtnBack {
-  background-color: ;
+  background-color:rgb(9, 9, 214)  ;
   border-bottom: 3px solid black;
 }
 .buttonsLeft {
@@ -66,7 +66,7 @@
   margin-left: 15px;
 }
 .operatorsButtonBack{
-  background-color:;
+  background-color:rgb(23, 79, 134);
   border-bottom: 3px solid black;
 }
 .numbersButton {
@@ -78,6 +78,6 @@
 }
 
 .numButtonBack {
-  background-color:;
+  background-color:midnightblue;
   border-bottom: 3px solid black;
 }
