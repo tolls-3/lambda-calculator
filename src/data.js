@@ -30,3 +30,8 @@ export const operators = [
 ];
 
 export const specials = ["C", "+/-", "%"];
+
+// export {specials,operators,numbers} 
+// export default specials;
+// export default numbers
+// export default operators

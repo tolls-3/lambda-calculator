@@ -8,10 +8,9 @@
   display: flex;
   flex-direction: column;
 }
-
-.logo{
-    margin-top:20px;
-    margin-left:15px;
+.logo {
+  margin-top: 20px;
+  margin-left: 15px;
 }
 .display {
   margin-top: 15px;
@@ -34,28 +33,28 @@
   align-items: center;
 }
 .App button {
-    /* border:2px solid green; */
-    margin: 10px;
-    width: 5.8rem;
-    height: 6rem;
-    font-size: 2rem;
-    color: white;
-    border-radius: 70px;
-  }
-.buttonsContainer{
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-top: 30px;
-  }
+  /* border:22px solid green; */
+  margin: 10px;
+  width: 5.8rem;
+  height: 6rem;  
+  font-size: 2rem;  
+  color: white;
+  border-radius: 70px;
+}
+.buttonsContainer {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 30px;
+}
 .specialsButton {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 .specialBtnBack {
-  background-color:rgb(9, 9, 214)  ;
+  background-color: rgb(9, 9, 214);
   border-bottom: 3px solid black;
 }
 .buttonsLeft {
@@ -70,19 +69,24 @@
   flex-direction: column;
   margin-left: 15px;
 }
-.operatorsButtonBack{
-  background-color:rgb(23, 79, 134);
+.operatorsButtonBack {
+  background-color: rgb(23, 79, 134);
   border-bottom: 3px solid black;
 }
 .numbersButton {
-  /* border: 2px solid red; */
+  /* border: 2px solid blue; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
-
-.numButtonBack {
-  background-color:midnightblue;
+.small-button, .large-button{
+  background-color: midnightblue;
   border-bottom: 3px solid black;
+}
+
+button.large-button {
+  /* border:2px solid green; */
+  padding: 10px;
+  width: 200px;
 }
